@@ -113,11 +113,21 @@ packages:
   quick_blue_macos:
     dependency: "direct main"
     description:
-      name: quick_blue_macos
-      sha256: f6042ab21766839bd4d4acdd2407ab6898fba4523ad7f5b5ef8562024301297e
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.0-dev.0"
+      path: "."
+      ref: main
+      resolved-ref: "991ec14659e704ce6a5cf8a01ace9987abeeac0b"
+      url: "https://github.com/SandeepMalviyaSM/quick_blue_macos.git"
+    source: git
+    version: "1.0.0"
+  quick_blue_windows:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "473ee5d6f71ca5b55511d4cd7f033eb643e54bc2"
+      url: "https://github.com/SandeepMalviyaSM/quick_blue_windows.git"
+    source: git
+    version: "1.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -143,10 +153,10 @@ packages:
     dependency: transitive
     description:
       name: xml
-      sha256: ac0e3f4bf00ba2708c33fbabbbe766300e509f8c82dbd4ab6525039813f7e2fb
+      sha256: "979ee37d622dec6365e2efa4d906c37470995871fe9ae080d967e192d88286b5"
       url: "https://pub.dev"
     source: hosted
-    version: "6.1.0"
+    version: "6.2.2"
 sdks:
   dart: ">=2.18.0 <3.0.0"
   flutter: ">=2.2.0"
