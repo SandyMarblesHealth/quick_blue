@@ -1,0 +1,34 @@
+name: quick_blue
+description: A cross-platform BluetoothLE plugin for Flutter.
+version: 0.6.0
+homepage: https://github.com/woodemi/quick_blue
+repository: https://github.com/woodemi/quick_blue/tree/master/quick_blue
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+  flutter: ">=2.2.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.4
+  convert: ^3.1.1
+  bluez: ^0.8.1
+  collection: ^1.15.0
+  logging: ^1.1.1
+  quick_blue_macos: ^0.4.0-dev.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.quick_blue
+        pluginClass: QuickBluePlugin
+      ios:
+        pluginClass: QuickBluePlugin
+      macos:
+        default_package: quick_blue_macos
+      windows:
+        default_package: quick_blue_windows
+      linux:
+        default_package: quick_blue_linux
