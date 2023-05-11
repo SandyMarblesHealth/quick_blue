@@ -20,10 +20,11 @@ dependencies:
     git:
       url: https://github.com/SandeepMalviyaSM/quick_blue_macos.git
       ref: main
-  quick_blue_windows: ^0.4.0-dev.0
-#    git:
-#      url: https://github.com/SandeepMalviyaSM/quick_blue_windows.git
-#      ref: main
+  # quick_blue_windows: ^0.4.0-dev.0
+  quick_blue_windows:
+    git:
+      url: https://github.com/SandeepMalviyaSM/quick_blue_windows.git
+      ref: main
 
 flutter:
   plugin:
